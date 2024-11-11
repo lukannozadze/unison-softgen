@@ -71,8 +71,8 @@ health:(props:IconProps) =>(
   <svg {...props} xmlns="http://www.w3.org/2000/svg" width="31" height="30" viewBox="0 0 31 30">
   <defs>
     <linearGradient id="linear-gradient" x1="0.5" x2="0.5" y2="1" gradientUnits="objectBoundingBox">
-      <stop offset="0" stop-color="#58b0e3"/>
-      <stop offset="1" stop-color="#005287"/>
+      <stop offset="0" stopColor="#58b0e3"/>
+      <stop offset="1" stopColor="#005287"/>
     </linearGradient>
   </defs>
   <g id="health_and_safety_black_48dp" transform="translate(0.471 0.079)">
@@ -85,8 +85,8 @@ car:(props:IconProps) =>(
   <svg {...props} xmlns="http://www.w3.org/2000/svg" width="31" height="30" viewBox="0 0 31 30">
   <defs>
     <linearGradient id="linear-gradient" x1="0.5" x2="0.5" y2="1" gradientUnits="objectBoundingBox">
-      <stop offset="0" stop-color="#58b0e3"/>
-      <stop offset="1" stop-color="#005287"/>
+      <stop offset="0" stopColor="#58b0e3"/>
+      <stop offset="1" stopColor="#005287"/>
     </linearGradient>
   </defs>
   <g id="directions_car_filled_black_48dp" transform="translate(0.436 -0.041)">
@@ -105,8 +105,8 @@ responsibility:(props:IconProps) =>(
   <svg {...props} xmlns="http://www.w3.org/2000/svg" id="how_to_reg_black_24dp" width="30.093" height="30.093" viewBox="0 0 30.093 30.093">
   <defs>
     <linearGradient id="linear-gradient" x1="0.5" x2="0.5" y2="1" gradientUnits="objectBoundingBox">
-      <stop offset="0" stop-color="#58b0e3"/>
-      <stop offset="1" stop-color="#005287"/>
+      <stop offset="0" stopColor="#58b0e3"/>
+      <stop offset="1" stopColor="#005287"/>
     </linearGradient>
   </defs>
   <path id="Path_219" data-name="Path 219" d="M0,0H30.093V30.093H0Z" fill="none"/>
@@ -117,8 +117,8 @@ travel:(props:IconProps) =>(
   <svg {...props} xmlns="http://www.w3.org/2000/svg" id="flight_takeoff_black_48dp" width="30.093" height="30.093" viewBox="0 0 30.093 30.093">
   <defs>
     <linearGradient id="linear-gradient" x1="0.5" x2="0.5" y2="1" gradientUnits="objectBoundingBox">
-      <stop offset="0" stop-color="#58b0e3"/>
-      <stop offset="1" stop-color="#005287"/>
+      <stop offset="0" stopColor="#58b0e3"/>
+      <stop offset="1" stopColor="#005287"/>
     </linearGradient>
   </defs>
   <path id="Path_28" data-name="Path 28" d="M0,0H30.093V30.093H0Z" fill="none"/>
@@ -129,11 +129,38 @@ cart:(props:IconProps) =>(
   <svg {...props} xmlns="http://www.w3.org/2000/svg"  width="24.007" height="23.998" viewBox="0 0 24.007 23.998">
   <defs>
     <linearGradient id="linear-gradient" x1="0.5" x2="0.5" y2="1" gradientUnits="objectBoundingBox">
-      <stop offset="0" stop-color="#ee303c"/>
-      <stop offset="1" stop-color="#9e0621"/>
+      <stop offset="0" stopColor="#ee303c"/>
+      <stop offset="1" stopColor="#9e0621"/>
     </linearGradient>
   </defs>
   <path id="Path_218" data-name="Path 218" d="M18.459,15.2a2.388,2.388,0,0,0,2.1-1.236l4.3-7.787A1.2,1.2,0,0,0,23.81,4.4H6.052L4.924,2H1V4.4H3.4l4.32,9.107L6.1,16.435A2.4,2.4,0,0,0,8.2,20H22.6V17.6H8.2l1.32-2.4ZM7.192,6.8H21.77l-3.312,6H10.035ZM8.2,21.2a2.4,2.4,0,1,0,2.4,2.4A2.4,2.4,0,0,0,8.2,21.2Zm12,0a2.4,2.4,0,1,0,2.4,2.4A2.4,2.4,0,0,0,20.2,21.2Z" transform="translate(-1 -2)" fill="url(#linear-gradient)"/>
 </svg>
-)
+),
+customer:(props:IconProps) =>(
+  <svg {...props} xmlns="http://www.w3.org/2000/svg" id="_24px" data-name="24px" width="52.771" height="52.771" viewBox="0 0 52.771 52.771">
+  <path id="Path_41" data-name="Path 41" d="M0,0H52.771V52.771H0Z" fill="none"/>
+  <path id="Path_42" data-name="Path 42" d="M23.988,2A21.988,21.988,0,1,0,45.976,23.988,22,22,0,0,0,23.988,2ZM13.148,37.8c.945-1.979,6.706-3.914,10.84-3.914S33.9,35.817,34.828,37.8a17.426,17.426,0,0,1-21.68,0Zm24.824-3.188c-3.144-3.826-10.774-5.123-13.984-5.123S13.148,30.782,10,34.608a17.59,17.59,0,1,1,27.969,0ZM23.988,10.8a7.7,7.7,0,1,0,7.7,7.7A7.676,7.676,0,0,0,23.988,10.8Zm0,10.994a3.3,3.3,0,1,1,3.3-3.3A3.294,3.294,0,0,1,23.988,21.789Z" transform="translate(2.398 2.398)" fill="#006a9f"/>
+</svg>
+),
+branch:(props:IconProps) =>(
+  <svg {...props} xmlns="http://www.w3.org/2000/svg" id="business_black_24dp" width="52.771" height="52.771" viewBox="0 0 52.771 52.771">
+  <path id="Path_43" data-name="Path 43" d="M0,0H52.771V52.771H0Z" fill="none"/>
+  <path id="Path_44" data-name="Path 44" d="M23.988,11.8V3H2V42.578H45.976V11.8ZM10.8,38.181H6.4v-4.4h4.4Zm0-8.8H6.4v-4.4h4.4Zm0-8.8H6.4v-4.4h4.4Zm0-8.8H6.4V7.4h4.4Zm8.8,26.385h-4.4v-4.4h4.4Zm0-8.8h-4.4v-4.4h4.4Zm0-8.8h-4.4v-4.4h4.4Zm0-8.8h-4.4V7.4h4.4ZM41.578,38.181H23.988v-4.4h4.4v-4.4h-4.4v-4.4h4.4v-4.4h-4.4v-4.4h17.59Zm-4.4-17.59h-4.4v4.4h4.4Zm0,8.8h-4.4v4.4h4.4Z" transform="translate(2.398 3.596)" fill="#006a9f"/>
+</svg>
+),
+payment:(props:IconProps) =>(
+  <svg {...props} xmlns="http://www.w3.org/2000/svg" width="53" height="53" viewBox="0 0 53 53">
+  <g id="payments_black_24dp" transform="translate(0.108 -0.14)">
+    <rect id="Rectangle_23" data-name="Rectangle 23" width="53" height="53" transform="translate(-0.108 0.14)" fill="none"/>
+    <path id="Path_45" data-name="Path 45" d="M40.578,25.988V8.4a4.411,4.411,0,0,0-4.4-4.4H5.4A4.411,4.411,0,0,0,1,8.4v17.59a4.411,4.411,0,0,0,4.4,4.4H36.181A4.411,4.411,0,0,0,40.578,25.988Zm-4.4,0H5.4V8.4H36.181ZM20.789,10.6a6.6,6.6,0,1,0,6.6,6.6A6.588,6.588,0,0,0,20.789,10.6Zm28.584,0V34.783a4.411,4.411,0,0,1-4.4,4.4H7.6v-4.4H44.976V10.6Z" transform="translate(1.199 4.795)" fill="#006a9f"/>
+  </g>
+</svg>
+),
+calendar:(props:IconProps) =>(
+  <svg {...props} xmlns="http://www.w3.org/2000/svg" id="date_range_black_24dp" width="52.771" height="52.771" viewBox="0 0 52.771 52.771">
+  <path id="Path_46" data-name="Path 46" d="M0,0H52.771V52.771H0Z" fill="none"/>
+  <path id="Path_47" data-name="Path 47" d="M11.8,21.789h4.4v4.4H11.8ZM42.578,10.8V41.578a4.411,4.411,0,0,1-4.4,4.4H7.4a4.4,4.4,0,0,1-4.4-4.4L3.022,10.8A4.378,4.378,0,0,1,7.4,6.4H9.6V2h4.4V6.4h17.59V2h4.4V6.4h2.2A4.411,4.411,0,0,1,42.578,10.8ZM7.4,15.193H38.181V10.8H7.4ZM38.181,41.578V19.59H7.4V41.578Zm-8.8-15.392h4.4v-4.4h-4.4Zm-8.8,0h4.4v-4.4h-4.4Z" transform="translate(3.596 2.398)" fill="#006a9f"/>
+</svg>
+),
+
 };
