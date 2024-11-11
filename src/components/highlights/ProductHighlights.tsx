@@ -5,7 +5,7 @@ export default function ProductHighlights() {
     <div className="w-full">
       <Image
         alt="Product Image"
-        src="/hero-1.jpeg"
+        src="/hero-1.png"
         layout="responsive" 
         width={1920} 
         height={626} 

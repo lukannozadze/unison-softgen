@@ -1,6 +1,7 @@
 import React from 'react'
 import OfferSection from './offers/OfferSection'
 import AdvantageSection from './advantages/AdvantageSection'
+import { NewsSection } from './news/NewsSection'
 
 export default function InfoSection() {
   return (
@@ -9,6 +10,7 @@ export default function InfoSection() {
 
        <OfferSection/>
        <AdvantageSection/>
+       <NewsSection/>
       </div>
     </div>
   )
