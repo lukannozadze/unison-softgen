@@ -37,11 +37,15 @@ const OFFERS = [
     }
 ]
 export default function OfferSection() {
-  return <section className='w-full flex justify-center flex-wrap gap-3 -translate-y-8'>
+  return <section className='w-full'>
+    <div className='flex justify-center flex-wrap gap-3 -translate-y-8'>
     {OFFERS.map((offer)=>{
         return <OfferCard key={offer.id} value={offer.value} icon={offer.icon}/>
     })}
+    </div>
+    <div className='flex flex-col items-center'>
     <EmergencyButton/>
     <Separator/>
+    </div>
   </section>
 }

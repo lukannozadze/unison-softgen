@@ -4,9 +4,10 @@ import React from 'react'
 
 export default function Home() {
   return (
-    <>
-    <ProductHighlights/>
-    <InfoSection/>
-    </>
+    <div className='h-full'>
+      <ProductHighlights/>
+      <InfoSection/>
+    </div>
+    
   )
 }
