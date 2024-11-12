@@ -7,7 +7,7 @@ export default function InfoSection() {
   return (
     <div
       style={{ backgroundImage: `url('/cover.png')`, backgroundRepeat: 'no-repeat' }}
-      className="w-full min-h-screen h-full relative"
+      className="relative"
     >
       <div className="top-0 left-0">
         <OfferSection />

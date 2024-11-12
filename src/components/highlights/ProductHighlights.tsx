@@ -2,18 +2,19 @@ import Image from "next/image";
 
 export default function ProductHighlights() {
   return (
-    <div className="w-full">
+    <>
       <Image
         alt="Product Image"
         src="/hero-1.png"
         layout="responsive"
-        width={1920}
-        height={626}
-        quality={85}
+        width={3840}
+        height={1252}
+        quality={100}
         priority
+        className="!h-[266px] w-full block"
       />
 
       <div className="h-2 bg-[#EE303C]"></div>
-    </div>
+    </>
   );
 }
