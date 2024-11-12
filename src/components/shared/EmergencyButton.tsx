@@ -1,8 +1,7 @@
-
 export default function EmergencyButton() {
   return (
-   <button className="py-6 bg-[#EE303C] text-white font-bold rounded-xl w-[345px] mt-3">
-     SOS
-   </button>
-  )
+    <button className="mt-3 w-[345px] rounded-xl bg-[#EE303C] py-6 font-bold text-white">
+      SOS
+    </button>
+  );
 }

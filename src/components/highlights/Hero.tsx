@@ -1,5 +1,6 @@
-import ConnectToAgency from "@/components/highlights/ConnectToAgency";
 import Image from "next/image";
+
+import ConnectToAgency from "@/components/shared/ConnectToAgency";
 
 export default function Hero() {
   return (
@@ -12,9 +13,9 @@ export default function Hero() {
         height={1252}
         quality={100}
         priority
-        className="!h-[266px] xl:!h-[400px] w-full relative"
+        className="relative !h-[266px] w-full xl:!h-[400px]"
       />
-       <ConnectToAgency/>
+      <ConnectToAgency />
       <div className="h-2 bg-[#EE303C]"></div>
     </>
   );

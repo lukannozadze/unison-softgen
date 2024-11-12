@@ -60,16 +60,16 @@ export function NewsSection() {
       <section className="mb-8 flex flex-col items-center">
         <h2 className="mb-6 mt-10 text-3xl text-[#707070]">სიახლეები</h2>
         <div className="flex gap-3">
-        {NEWS.map((item) => (
-          <NewsCard key={item.id} imagePath={item.image} title={item.title} date={item.date} />
-        ))}
+          {NEWS.map((item) => (
+            <NewsCard key={item.id} imagePath={item.image} title={item.title} date={item.date} />
+          ))}
         </div>
         <div className="mt-6 flex items-center gap-2 text-center">
-        <span className="text-sm text-[#707070]">ყველა სიახლე</span>
-        <span>
-          <Icons.rightArrow />
-        </span>
-      </div>
+          <span className="text-sm text-[#707070]">ყველა სიახლე</span>
+          <span>
+            <Icons.rightArrow />
+          </span>
+        </div>
       </section>
     );
 

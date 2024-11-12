@@ -1,9 +1,8 @@
 import React from "react";
 
+import AdvantageCardMobile from "@/components/main-section/advantages/AdvantageCardMobile";
 import { Icons } from "@/components/shared/Icons";
 import Separator from "@/components/shared/Separator";
-
-import AdvantageCardMobile from "@/components/main-section/advantages/AdvantageCardMobile";
 
 const ADVANTAGES = [
   {
@@ -39,7 +38,12 @@ export default function AdvantageSectionMobile() {
       <div className="flex flex-wrap justify-center gap-3">
         {ADVANTAGES.map((item) => {
           return (
-            <AdvantageCardMobile key={item.id} title={item.title} value={item.value} icon={item.icon} />
+            <AdvantageCardMobile
+              key={item.id}
+              title={item.title}
+              value={item.value}
+              icon={item.icon}
+            />
           );
         })}
       </div>

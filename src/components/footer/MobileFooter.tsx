@@ -55,7 +55,7 @@ export default function MobileFooter() {
           <ul className="flex flex-col gap-5">
             <div className="flex items-center gap-3">
               <Image
-                src="/facebook.png"
+                src="/socials/facebook.png"
                 alt="Facebook"
                 width={24}
                 height={24}
@@ -65,7 +65,7 @@ export default function MobileFooter() {
             </div>
             <div className="flex items-center gap-3">
               <Image
-                src="/youtube.png"
+                src="/socials/youtube.png"
                 alt="YouTube"
                 width={24}
                 height={24}
@@ -78,7 +78,7 @@ export default function MobileFooter() {
           <ul className="flex flex-col gap-5">
             <div className="flex items-center gap-3">
               <Image
-                src="/instagram.png"
+                src="/socials/instagram.png"
                 alt="Instagram"
                 width={24}
                 height={24}
@@ -88,7 +88,7 @@ export default function MobileFooter() {
             </div>
             <div className="flex items-center gap-3">
               <Image
-                src="/linkedin.png"
+                src="/socials/linkedin.png"
                 alt="LinkedIn"
                 width={24}
                 height={24}

@@ -1,15 +1,16 @@
 import { ReactNode } from "react";
+
 type Props = {
-    value:string
-    icon:ReactNode
-}
-export default function OfferCard({value,icon}:Props) {
+  text: string;
+  icon: ReactNode;
+};
+export default function OfferCard({ text, icon }: Props) {
   return (
-    <div className="bg-white rounded-xl f z-100 py-6 shadow-md min-w-[165px] flex justify-center items-center text-[#707070]">
-        <div className="flex flex-col gap-2 justify-center items-center max-w-36 text-center">
-       <span>{icon}</span>
-       <span>{value}</span>
-        </div>
+    <div className="f z-100 flex min-w-[165px] items-center justify-center rounded-xl bg-white py-6 text-[#707070] shadow-md cursor-pointer">
+      <div className="flex max-w-36 flex-col items-center justify-center gap-2 text-center">
+        <span>{icon}</span>
+        <span>{text}</span>
+      </div>
     </div>
-  )
+  );
 }
