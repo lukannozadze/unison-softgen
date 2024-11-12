@@ -9,7 +9,7 @@ export default function InfoSection() {
       style={{ backgroundImage: `url('/cover.png')`, backgroundRepeat: 'no-repeat' }}
       className="relative"
     >
-      <div className="top-0 left-0">
+      <div className="top-0 left-0 mx-auto container">
         <OfferSection />
         <AdvantageSection />
         <NewsSection />

@@ -1,44 +1,60 @@
-import { Icons } from '@/components/shared/Icons'
-import React from 'react'
-import AdvantageCard from './AdvantageCard'
-import Separator from '@/components/shared/Separator'
+'use client'
+import { Icons } from "@/components/shared/Icons";
+import Separator from "@/components/shared/Separator";
 
-const ADVANTAGES  = [
- {
-    id:1,
-    title:'კმაყოფილი მომხმარებელი',
-    value:32067,
-    icon:<Icons.customer/>
+import { useIsTabletOrMobile } from "@/hooks/useIsTabletOrMobile";
+import AdvantageCard from "@/components/main-section/advantages/AdvantageCard";
+import AdvantageSectionMobile from "@/components/main-section/advantages/AdvantagesSectionMobile";
+
+const ADVANTAGES = [
+  {
+    id: 1,
+    title: "მომხმარებლის კმაყოფილების 96%-იანი დონე",
+    icon: <Icons.customer />,
+  },
+  {
+    id: 2,
+    title: "მაღალრეიტინგული გადამზღვევი კომპანიები",
+    icon: <Icons.stars />,
+  },
+  {
+    id: 3,
+    title: "თანამედროვე ელექტრონული სერვისები",
+    icon: <Icons.touch />,
+  },
+  {
+    id: 4,
+    title: "ზარალის დარეგულირების უმოკლესი ვადები",
+    icon: <Icons.clock />,
+  },
+  {
+   id: 5,
+   title: "კორპორატიული კლიენტების ფართო სპექტრი",
+   icon: <Icons.customers />,
  },
  {
-    id:2,
-    title:'ფილიალი საქართველოში',
-    value:5,
-    icon:<Icons.branch/>
+   id: 6,
+   title: "გუნდის პროფესიონალიზმი და მრავალწლიანი გამოცდილებაი",
+   icon: <Icons.sparkle />,
  },
- {
-    id:1,
-    title:'ანაზღაურებული თანხა',
-    value:2800843,
-    icon:<Icons.payment/>
- },
- {
-    id:1,
-    title:'წარმატებული წელი',
-    value:12,
-    icon:<Icons.calendar/>
- }
-]
+];
 
 export default function AdvantageSection() {
-  return <section className='w-full flex flex-col justify-center items-center'>
-    <h2 className='text-3xl text-[#707070]'>უპირატესობები</h2>
-    <div className='flex flex-wrap justify-center gap-3'>
-  {ADVANTAGES.map((item)=>{
-      return <AdvantageCard key={item.id} title={item.title} value={item.value} icon={item.icon}/>
-  })}
-    </div>
-  
-  <Separator/>
-</section>
+   const isTabletOrMobile = useIsTabletOrMobile();
+   if (isTabletOrMobile) return <AdvantageSectionMobile/>;
+  return (
+    <section className="flex w-full flex-col items-center justify-center">
+      <h2 className="text-3xl text-[#707070] xl:mt-6 xl:mb-4">უპირატესობები</h2>
+      <div className="flex flex-wrap justify-center gap-3 xl:gap-6">
+        {ADVANTAGES.map((item) => {
+          return (
+            <AdvantageCard key={item.id} title={item.title} icon={item.icon} />
+          ); 
+        })}
+      </div>
+     <div className="xl:hidden">
+      <Separator />
+     </div>
+    </section>
+  );
 }
