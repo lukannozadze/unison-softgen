@@ -1,8 +1,10 @@
 "use client";
+
 import { useIsTabletOrMobile } from "@/hooks/useIsTabletOrMobile";
-import MobileHeader from "./MobileHeader";
-import MainNavigation from "./MainNavigation";
+
 import HeaderDashboard from "./HeaderDashboard";
+import MainNavigation from "./MainNavigation";
+import MobileHeader from "./MobileHeader";
 
 export default function Header() {
   const isTabletOrMobile = useIsTabletOrMobile();
@@ -13,13 +15,11 @@ export default function Header() {
       </header>
     );
   return (
-    <header className="w-full">
-      <div className="bg-black">
-      <div className="container h-12 mx-auto flex items-center xl:px-20">
+    <header className="w-full bg-black">
+      <div className="container mx-auto flex h-12 items-center xl:px-20">
         <MainNavigation />
       </div>
-        <HeaderDashboard/>
-    </div>
+      <HeaderDashboard />
     </header>
   );
 }

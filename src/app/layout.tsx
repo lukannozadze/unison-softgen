@@ -3,7 +3,7 @@ import "./globals.css";
 
 import { Inter } from "next/font/google";
 
-import MobileFooter from "@/components/footer/MobileFooter";
+import Footer from "@/components/footer/Footer";
 
 const inter = Inter({ subsets: ["latin"] });
 export default async function RootLayout({
@@ -16,7 +16,7 @@ export default async function RootLayout({
       <body className={`${inter.className} min-h-screen antialiased`}>
         <Header/>
         <main>{children}</main>
-        <MobileFooter/>
+        <Footer/>
       </body>
     </html>
   );
