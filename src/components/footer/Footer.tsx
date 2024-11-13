@@ -11,7 +11,7 @@ export default function Footer() {
   if (isTabletOrMobile) return <MobileFooter />;
 
   return (
-    <footer className="w-full bg-white">
+    <footer className="w-full bg-white pb-3">
       <div className="mx-44 grid grid-cols-4 justify-items-center">
         <div className="flex flex-col gap-6">
           <Icons.logo />

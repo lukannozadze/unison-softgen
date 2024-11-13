@@ -7,7 +7,7 @@ import OfferSection from "./offers/OfferSection";
 export default function InfoSection() {
   return (
     <div
-      style={{ backgroundImage: `url('/cover.png')`, backgroundRepeat: "no-repeat" }}
+      style={{ backgroundImage: `url('/cover.png')`, backgroundRepeat: "no-repeat",backgroundSize:'cover' }}
       className="relative"
     >
       <div className="container left-0 top-0 mx-auto">

@@ -4,7 +4,7 @@ import { Icons } from "../shared/Icons";
 
 export default function MobileFooter() {
   return (
-    <footer className="w-full bg-gray-100 px-9 py-6">
+    <footer className="w-full px-9 py-6">
       <div className="gird-cols-2 grid-areas-footer container grid gap-8 md:grid-cols-2 lg:grid-cols-4">
         <div className="flex items-center">
           <Icons.logo />
