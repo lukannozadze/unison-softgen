@@ -1,4 +1,5 @@
 import Header from "@/components/header/Header";
+
 import "./globals.css";
 
 import { Inter } from "next/font/google";
@@ -14,9 +15,9 @@ export default async function RootLayout({
   return (
     <html lang="en" suppressHydrationWarning>
       <body className={`${inter.className} min-h-screen antialiased`}>
-        <Header/>
+        <Header />
         <main>{children}</main>
-        <Footer/>
+        <Footer />
       </body>
     </html>
   );

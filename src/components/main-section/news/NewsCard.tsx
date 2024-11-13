@@ -7,7 +7,7 @@ type Props = {
 };
 export default function NewsCard({ imagePath, title, date }: Props) {
   return (
-    <div className="flex w-[227px] flex-col rounded-b-xl  xl:w-[321px] bg-white">
+    <div className="flex w-[227px] flex-col rounded-b-xl  xl:w-[321px] bg-white cursor-pointer">
       <Image
         className="w-full rounded-t-xl"
         src={imagePath}

@@ -64,11 +64,9 @@ export function NewsSection() {
             <NewsCard key={item.id} imagePath={item.image} title={item.title} date={item.date} />
           ))}
         </div>
-        <div className="my-6 flex items-center gap-2 text-center">
+        <div className="group my-6 flex cursor-pointer items-center gap-2 text-center">
           <span className="text-sm text-[#707070]">ყველა სიახლე</span>
-          <span>
-            <Icons.rightArrow />
-          </span>
+          <Icons.rightArrow />
         </div>
       </section>
     );
@@ -87,9 +85,7 @@ export function NewsSection() {
       </Carousel>
       <div className="my-4 flex items-center gap-2 text-center">
         <span className="text-sm text-[#707070]">ყველა სიახლე</span>
-        <span>
-          <Icons.rightArrow />
-        </span>
+        <Icons.rightArrow />
       </div>
     </section>
   );
